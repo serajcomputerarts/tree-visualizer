@@ -11,7 +11,7 @@
 ## ✨ Features
 
 - 🎯 **Simple Input Format**: Use intuitive parenthetical notation like `A(B,C)`
-- 🖼️ **High-Quality Output**: Generate crisp 1920x1080 PNG visualizations
+- 🖼️ **High-Quality Output**: Generate crisp 1080x540 PNG visualizations
 - 🏗️ **Complex Structures**: Support for deeply nested and multi-child trees
 - 🎨 **Multiple Themes**: Choose from various visual themes (default, dark, colorful)
 - ⚡ **Smart Layout**: Automatic positioning and spacing optimization
