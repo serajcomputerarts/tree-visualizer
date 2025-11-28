@@ -1,0 +1,21 @@
+# Sample Tree Inputs for Testing
+# Format: tree_notation | description
+
+A | Single node
+A(B) | Root with one child
+A(B,C) | Root with two children
+A(B(D),C) | Root with nested child
+8(3(1,6(4,7)),10(14(13))) | Complex binary tree
+1(2(4,5),3(6,7)) | Balanced binary tree
+Root(Left(LL,LR),Right(RL,RR)) | Text labels
+A(B(D(H,I),E),C(F,G)) | Three levels deep
+X(Y(Z)) | Linear chain
+1(2,3,4,5) | Multiple children
+A(B(C(D(E)))) | Deep linear tree
+Tree(Branch1(Leaf1,Leaf2),Branch2(Leaf3,Leaf4,Leaf5)) | Descriptive names
+
+# Invalid formats for testing error handling
+A(B,C | Missing closing parenthesis
+A(B,C)) | Extra closing parenthesis
+(A) | Starting with parenthesis
+A() | Empty children

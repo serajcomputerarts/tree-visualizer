@@ -1,0 +1,46 @@
+# Sample Tree Inputs
+# Copy and paste these into the main program
+
+# Basic Trees
+A
+A(B)
+A(B,C)
+Root(Left,Right)
+
+# Binary Trees
+8(3,10)
+8(3(1,6),10(14))
+8(3(1,6(4,7)),10(14(13)))
+
+# Multi-child Trees
+A(B,C,D)
+Root(Child1,Child2,Child3,Child4)
+1(2,3,4,5,6)
+
+# Nested Trees
+A(B(D(H),E),C(F,G))
+1(2(4(8,9),5),3(6,7))
+Root(Branch1(Leaf1,Leaf2),Branch2(Leaf3))
+
+# Deep Trees
+A(B(C(D(E))))
+1(2(3(4(5(6)))))
+
+# Wide Trees
+Root(A,B,C,D,E,F,G,H,I,J)
+Hub(Node1,Node2,Node3,Node4,Node5)
+
+# Real-world Examples
+CEO(CTO(DevTeam,QATeam),CFO(Finance,HR))
+FileSystem(Documents(Word,Excel),Pictures(Photos,Screenshots))
+Family(Parents(Father,Mother),Children(Child1,Child2,Child3))
+
+# Mathematical Expressions
++(*(a,b),c)
+/(+(a,b),-(c,d))
+^(+(x,1),2)
+
+# Data Structures
+BST(50(25(12,37),75(62,87)))
+Heap(100(90(80,85),95(92,98)))
+Trie(Root(a(n(t)),b(e(e))))
