@@ -24,6 +24,6 @@
 ### Installation
 
 ```bash
-git clone https://github.com/yourusername/tree-visualizer.git
+git clone https://github.com/serajcomputerarts/tree-visualizer.git
 cd tree-visualizer
 pip install -r requirements.txt
