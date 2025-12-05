@@ -7,7 +7,11 @@
 [![Tests](https://img.shields.io/badge/tests-passing-brightgreen.svg)](https://github.com/yourusername/tree-visualizer/actions)
 
 > Python tool for converting parenthetical tree notation into beautiful visual representations. Transform simple text like `A(B,C)` into stunning 1080x540 tree diagrams!
+## 📸 Screenshots
 
+<div align="center">
+<img src="screenshots/screenshot.jpg" alt="Tree" width="300">
+</div>
 ## ✨ Features
 
 - 🎯 **Simple Input Format**: Use intuitive parenthetical notation like `A(B,C)`
